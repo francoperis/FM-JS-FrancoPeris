@@ -15,7 +15,7 @@ async function getData(){
         tittleName.textContent = p.location.name
 
         card.append(img,tittleName)
-        card.append(main)
+        main.append(card)
     })
 
 
